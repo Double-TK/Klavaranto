@@ -1,0 +1,19 @@
+build/
+dist/
+Antiguos/
+*.spec
+*.c
+*.pyd
+*.pyx
+*.pyc
+*.ini
+__pycache__/
+debug.txt
+Bandera ES.py
+Banderas.py
+ejemplo_guardar.py
+fuentex.py
+main.py
+setup.py
+Projecto NT.py
+ProtestRiot-Limpiaxxx.ttf
