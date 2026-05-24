@@ -1,0 +1,1280 @@
+('C:\\Users\\Tetsuya Tsurugi\\OneDrive - pucv.cl\\Tetsuya Tsurugi\\Mis '
+ 'Documentos\\Python\\Projecto NT\\build\\Projecto NT\\PYZ-00.pyz',
+ [('PIL',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageText',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageText.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_ast_unparse',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_ast_unparse.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_ios_support',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_ios_support.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_py_warnings',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_py_warnings.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyrepl',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_pyrepl\\__init__.py',
+   'PYMODULE'),
+  ('_pyrepl.pager',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_pyrepl\\pager.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('annotationlib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\annotationlib.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ast.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('compression',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\compression\\__init__.py',
+   'PYMODULE'),
+  ('compression._common',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\compression\\_common\\__init__.py',
+   'PYMODULE'),
+  ('compression._common._streams',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\compression\\_common\\_streams.py',
+   'PYMODULE'),
+  ('compression.zstd',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\compression\\zstd\\__init__.py',
+   'PYMODULE'),
+  ('compression.zstd._zstdfile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\compression\\zstd\\_zstdfile.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes._layout',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\_layout.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('defusedxml',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\__init__.py',
+   'PYMODULE'),
+  ('defusedxml.ElementTree',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\ElementTree.py',
+   'PYMODULE'),
+  ('defusedxml.cElementTree',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\cElementTree.py',
+   'PYMODULE'),
+  ('defusedxml.common',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\common.py',
+   'PYMODULE'),
+  ('defusedxml.expatbuilder',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\expatbuilder.py',
+   'PYMODULE'),
+  ('defusedxml.expatreader',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\expatreader.py',
+   'PYMODULE'),
+  ('defusedxml.minidom',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\minidom.py',
+   'PYMODULE'),
+  ('defusedxml.pulldom',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\pulldom.py',
+   'PYMODULE'),
+  ('defusedxml.sax',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\sax.py',
+   'PYMODULE'),
+  ('defusedxml.xmlrpc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\defusedxml\\xmlrpc.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\dis.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._os',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pathlib\\_os.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('psutil',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\psutil\\__init__.py',
+   'PYMODULE'),
+  ('psutil._common',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\psutil\\_common.py',
+   'PYMODULE'),
+  ('psutil._ntuples',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\psutil\\_ntuples.py',
+   'PYMODULE'),
+  ('psutil._pswindows',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\psutil\\_pswindows.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.module_docs',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pydoc_data\\module_docs.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pynput',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\__init__.py',
+   'PYMODULE'),
+  ('pynput._info',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_info.py',
+   'PYMODULE'),
+  ('pynput._util',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\__init__.py',
+   'PYMODULE'),
+  ('pynput._util.darwin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\darwin.py',
+   'PYMODULE'),
+  ('pynput._util.darwin_vks',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\darwin_vks.py',
+   'PYMODULE'),
+  ('pynput._util.uinput',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\uinput.py',
+   'PYMODULE'),
+  ('pynput._util.win32',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\win32.py',
+   'PYMODULE'),
+  ('pynput._util.win32_vks',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\win32_vks.py',
+   'PYMODULE'),
+  ('pynput._util.xorg',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\xorg.py',
+   'PYMODULE'),
+  ('pynput._util.xorg_keysyms',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\_util\\xorg_keysyms.py',
+   'PYMODULE'),
+  ('pynput.keyboard',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\__init__.py',
+   'PYMODULE'),
+  ('pynput.keyboard._base',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_base.py',
+   'PYMODULE'),
+  ('pynput.keyboard._darwin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_darwin.py',
+   'PYMODULE'),
+  ('pynput.keyboard._dummy',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_dummy.py',
+   'PYMODULE'),
+  ('pynput.keyboard._uinput',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_uinput.py',
+   'PYMODULE'),
+  ('pynput.keyboard._win32',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_win32.py',
+   'PYMODULE'),
+  ('pynput.keyboard._xorg',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\keyboard\\_xorg.py',
+   'PYMODULE'),
+  ('pynput.mouse',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\__init__.py',
+   'PYMODULE'),
+  ('pynput.mouse._base',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\_base.py',
+   'PYMODULE'),
+  ('pynput.mouse._darwin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\_darwin.py',
+   'PYMODULE'),
+  ('pynput.mouse._dummy',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\_dummy.py',
+   'PYMODULE'),
+  ('pynput.mouse._win32',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\_win32.py',
+   'PYMODULE'),
+  ('pynput.mouse._xorg',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\site-packages\\pynput\\mouse\\_xorg.py',
+   'PYMODULE'),
+  ('pystray',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\__init__.py',
+   'PYMODULE'),
+  ('pystray._appindicator',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_appindicator.py',
+   'PYMODULE'),
+  ('pystray._base',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_base.py',
+   'PYMODULE'),
+  ('pystray._darwin',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_darwin.py',
+   'PYMODULE'),
+  ('pystray._dummy',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_dummy.py',
+   'PYMODULE'),
+  ('pystray._gtk',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_gtk.py',
+   'PYMODULE'),
+  ('pystray._info',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_info.py',
+   'PYMODULE'),
+  ('pystray._util',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_util\\__init__.py',
+   'PYMODULE'),
+  ('pystray._util.gtk',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_util\\gtk.py',
+   'PYMODULE'),
+  ('pystray._util.notify_dbus',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_util\\notify_dbus.py',
+   'PYMODULE'),
+  ('pystray._util.win32',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_util\\win32.py',
+   'PYMODULE'),
+  ('pystray._win32',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_win32.py',
+   'PYMODULE'),
+  ('pystray._xorg',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\pystray\\_xorg.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\random.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\signal.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Roaming\\Python\\Python314\\site-packages\\six.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\string\\__init__.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\sysconfig\\__init__.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Tetsuya Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\typing.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc.server',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\xmlrpc\\server.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Tetsuya '
+   'Tsurugi\\AppData\\Local\\Programs\\Thonny\\Lib\\zipimport.py',
+   'PYMODULE')])
