@@ -1,5 +1,4 @@
-# Klavaranto v1.0
-
+# Klavaranto
 ---
 
 ## ES | Español
