@@ -50,17 +50,29 @@
 ✅ Bug: guardar atajo deshacer sin tecla asignada causa KeyError
 ✅ Remodelar ventana Opciones
 ✅ Versión instalador con Inno Setup
+✅ Revisar licencias antes de publicar
+✅ Label versión en Acerca de se traduce correctamente con frame + grid
+✅ Nombres de teclas traducidos según idioma
+✅ Flechas como símbolos Unicode en nombres de teclas
+✅ config.ini guarda clave interna de teclas, no el nombre visible
+✅ Limpiar atajo actualiza config.ini correctamente
+✅ Bug: guardar_opciones pisaba atajo_deshacer con texto bonito
+✅ Revisar traducciones
+✅ Ventana Acerca de mejorada con links, autor, copyright y botones
+✅ Texto "cerrar" agregado al JSON y usado en botón de ventana Acerca de
+✅ config.ini se guarda en AppData cuando está instalado, portable si no
+✅ Script build.py automatiza compilación, zip y instalador
+✅ Instalador con pynsist — acceso directo corregido en pyapp.nsi
+✅ Instalador funciona en modo usuario y para todos los usuarios
 
 🔍 EN OBSERVACIÓN
 
 Bug del PID al cerrar mal — mejorado con tiempo de creación, en observación
+Bug: etiqueta deshacer muestra tecla en mayúsculas al cambiar idioma — no reproducible, en observación
 
 ⏳ PENDIENTE
 
-Ventana "Acerca de" mejorar
-Revisar licencias antes de publicar
-Revisar traducciones
-
+(ninguno)
 
 🔭 A FUTURO
 
@@ -70,7 +82,6 @@ Sonidos de máquina de escribir
 Perfiles de configuración
 Archivo log
 Doble tecla como gatillante (ej: cc → ĉ)
-Traducir nombres de teclas según idioma
 
 🤔 QUIZÁS
 

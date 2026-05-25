@@ -86,7 +86,13 @@ if getattr(sys, 'frozen', False):
 else:
     ruta_exe = os.path.dirname(os.path.abspath(__file__))
 
-config_file = os.path.join(ruta_exe, "config.ini")
+if "Program Files" in ruta_exe:
+    ruta_config = os.path.join(os.environ["APPDATA"], "Klavaranto")
+    os.makedirs(ruta_config, exist_ok=True)
+else:
+    ruta_config = ruta_exe
+
+config_file = os.path.join(ruta_config, "config.ini")
 
 if os.name == 'nt':
     import ctypes
@@ -1180,7 +1186,7 @@ def iniciar_interfaz():
     link_sponsor.grid(row=2, column=1, sticky="w")
     link_sponsor.bind("<Button-1>", lambda e: webbrowser.open("https://ko-fi.com/doubletk"))    
         
-    tk.Label(ventana_acerca_de, text="© 2026 GAB. All rights reserved.", font=("Segoe UI", 7), fg="gray").pack()
+    
     
     #Botones
     frame_acerca_botones = tk.Frame(ventana_acerca_de)
@@ -1193,6 +1199,13 @@ def iniciar_interfaz():
     boton_acerca_der.pack(side="right")
     
     #Cosas de uso externo
+    frame_licencia = tk.Frame(ventana_acerca_de)
+    frame_licencia.pack()
+    tk.Label(frame_licencia, text=" © 2026 GAB. Klavaranto is free software:", font=("Segoe UI", 7), fg="gray").pack(side="left")
+    link_licencia = tk.Label(frame_licencia, text="GNU GPL v3", font=("Segoe UI", 7), fg="blue", cursor="hand2")
+    link_licencia.pack(side="left")
+    link_licencia.bind("<Button-1>", lambda e: webbrowser.open("https://www.gnu.org/licenses/gpl-3.0.html"))
+    
     tk.Label(ventana_acerca_de, text="Fuente Protest Riot © Octavio Pardo, SIL OFL", font=("Segoe UI", 7), fg="gray").pack()
     tk.Label(ventana_acerca_de, text="Usa pynput y pystray bajo licencia LGPL", font=("Segoe UI", 7), fg="gray").pack()
     
@@ -1212,5 +1225,6 @@ generar_diccionario()
 
 
 ventana_opciones.mainloop()
+
 
 

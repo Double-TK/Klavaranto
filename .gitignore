@@ -1,19 +1,13 @@
-build/
-dist/
-Antiguos/
-*.spec
-*.c
-*.pyd
-*.pyx
-*.pyc
-*.ini
-__pycache__/
-debug.txt
-Bandera ES.py
-Banderas.py
-ejemplo_guardar.py
-fuentex.py
-main.py
-setup.py
-Projecto NT.py
-ProtestRiot-Limpiaxxx.ttf
+# Ignorar todo
+*
+
+# Excepto estos archivos
+!klavaranto.py
+!idiomas.json
+!README.md
+!icono.ico
+!app_idioma_es.png
+!app_idioma_en.png
+!app_idioma_eo.png
+!ProtestRiot-Limpia.ttf
+!.gitignore
