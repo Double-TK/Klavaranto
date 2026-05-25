@@ -32,7 +32,7 @@ Uzado: rulu Klavaranto.exe. Aperos ikono en la sistema trako.
 Dekstre alklaku por aktivigi, agordi aŭ eliri.
 
 ================================================================
-  © 2026 GAB. All rights reserved.
+  © 2026 GAB. Klavaranto is free software, licensed under GNU GPL v3. https://www.gnu.org/licenses/gpl-3.0.html
   https://github.com/Double-TK/Klavaranto
   https://github.com/Double-TK/Klavaranto/issues
   https://ko-fi.com/doubletk
