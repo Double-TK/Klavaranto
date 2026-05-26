@@ -34,6 +34,19 @@ Uzado: rulu Klavaranto.exe. Aperos ikono en la sistema trako. Dekstre alklaku po
 
 ---
 
+## How to use
+
+### import requisites
+
+```
+python -m pip install --user -r requirements.txt
+```
+
+### Fedora requirements
+```
+dnf install -y libappindicator-gtk3 
+```
+
 © 2026 GAB. Klavaranto is free software, licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 🔗 [GitHub](https://github.com/Double-TK/Klavaranto) | [Reportar error](https://github.com/Double-TK/Klavaranto/issues) | [Ko-fi](https://ko-fi.com/doubletk)

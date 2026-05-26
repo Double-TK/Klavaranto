@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 ##################################################
 ##           DATOS DEL PROGRAMA                 ##
 ##################################################
@@ -42,10 +44,6 @@ from PIL import Image, ImageDraw       #Este controla el dibujado (exactametne d
 from PIL import ImageTk                #Poner el dibujo en las ventanas
 
 import json                            #cargar archivos json (idiomas)
-
-
-
-
 
 #############################################################
 ##              CONFIGURACIÓN E IDIOMAS [CEI]              ##
