@@ -130,6 +130,16 @@ class Telefonista:
         self.suscribir("abrir_acerca",      self.acerca.ventana.deiconify)
         logger.log_sistema.debug("programa ok")
 
+        # -- Modo prueba --
+        self.suscribir("iniciar_prueba", lambda: setattr(self.config, 'activado', 2))
+        self.suscribir("fin_prueba",     lambda: setattr(self.config, 'activado', 0))
+        self.suscribir("fin_prueba",     lambda: setattr(self.teclado, 'buffer_deshacer', []))
+        self.suscribir("fin_prueba",     self.teclado.buffer_tipeo.clear)
+
+        # Refuerzo — pase lo que pase (X, Cancelar u OK) siempre se limpia el modo prueba
+        self.suscribir("cancelar_opciones", lambda: self.publicar("fin_prueba"))
+        self.suscribir("guardar_opciones",  lambda: self.publicar("fin_prueba"))
+
 
     ##############################################################
     ##              ACCIONES COMPUESTAS                         ##

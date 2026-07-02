@@ -1,6 +1,6 @@
 ## ES | Español
 
-# Klavaranto v1.1
+# Klavaranto v1.1.1
 
 ## Características
 
@@ -45,26 +45,6 @@ Klavaranto está hecho en Python, usando las siguientes librerías:
 * **pystray** — ícono en la bandeja del sistema
 * **Pillow** — generación de íconos y banderas
 
-## Historial de versiones
-
-### Versión 1.1
-
-* Nuevo método de entrada: doble tecla (presionar la letra dos veces para el cambio de letra)
-* Reorganización y limpieza general del código interno
-* Corrección de bugs en el sistema de atajos y tecla de deshacer
-* Corrección de varios bugs visuales y de traducción
-
-### Versión 1.0.1
-
-* Se arregló un bug donde el shortcut dejaba de funcionar en momentos al azar.
-* Se arregló un bug donde los botones de captura de los shortcuts fallaban si no se ingresaban teclas nuevas.
-* Cambios menores a las traducciones y visuales.
-
-### Versión 1.0 — Versión Inicial
-
-* Convierte combinaciones de teclas en caracteres especiales del Esperanto (cx→ĉ, gx→ĝ, hx→ĥ, jx→ĵ, sx→ŝ, ux→ŭ)
-* Métodos de entrada de las letras a través de prefijo o sufijo, ambos configurables.
-* Sistema para deshacer el último cambio
 
 ---
 
@@ -115,26 +95,7 @@ Klavaranto is made in Python, using the following libraries:
 * **pystray** — system tray icon
 * **Pillow** — icon and flag generation
 
-## Version history
 
-### Version 1.1
-
-* New input method: double key (press the letter twice to change it)
-* General reorganization and cleanup of the internal code
-* Bug fixes in the shortcut and undo key system
-* Fixed several visual and translation bugs
-
-### Version 1.0.1
-
-* Fixed a bug where the shortcut would randomly stop working.
-* Fixed a bug where the shortcut capture buttons would fail if no new keys were entered.
-* Minor visual and translation updates.
-
-### Version 1.0 — Initial Release
-
-* Converts key combinations into special Esperanto characters (cx→ĉ, gx→ĝ, hx→ĥ, jx→ĵ, sx→ŝ, ux→ŭ)
-* Input methods for letters via prefix or suffix, both configurable.
-* System to undo the last change
 
 ---
 
@@ -185,26 +146,6 @@ Klavaranto estas farita en Python, uzante la jenajn bibliotekojn:
 * **pystray** — ikono en la sistema trako
 * **Pillow** — generado de ikonoj kaj flagoj
 
-## Versia historio
-
-### Versio 1.1
-
-* Nova eniga metodo: duobla klavo (premi la literon dufoje por ŝanĝi ĝin)
-* Ĝenerala reordigo kaj purigo de la interna kodo
-* Riparo de eraroj en la sistemo de klavkombino kaj malfara klavo
-* Riparo de diversaj viduj kaj tradukaj eraroj
-
-### Versio 1.0.1
-
-* Riparo de eraro, kiu kaŭzis, ke la klavkombino hazarde ĉesis funkcii.
-* Riparo de programeraro, kiu paneigis la butonojn por registri klavkombinojn, se neniuj novaj klavoj estis enmetitaj.
-* Negrandaj ŝanĝoj en tradukoj kaj aspekto.
-
-### Versio 1.0 — Komenca versio
-
-* Ĝi konvertas klavkombinojn al specialaj Esperantaj signoj (cx→ĉ, gx→ĝ, hx→ĥ, jx→ĵ, sx→ŝ, ux→ŭ)
-* Enigaj metodoj por literoj per prefikso aŭ sufikso, ambaŭ agordeblaj.
-* Sistemo por malfari la lastan ŝanĝon
 
 ---
 

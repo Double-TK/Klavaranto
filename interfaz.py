@@ -102,7 +102,7 @@ class Interfaz:
         self.ventana_opciones.title(self.config.textos[self.config.idioma]["sistema"]["menu_opciones"])
         self.ventana_opciones.geometry("470x580")
         self.ventana_opciones.withdraw()
-        self.ventana_opciones.protocol("WM_DELETE_WINDOW", self.ventana_opciones.withdraw)
+        self.ventana_opciones.protocol("WM_DELETE_WINDOW", lambda: self.publicar("cancelar_opciones") if self.publicar else self.ventana_opciones.withdraw())
         self.ventana_opciones.resizable(False, False)
         self.ventana_opciones.columnconfigure(0, weight=1)
 
@@ -252,8 +252,8 @@ class Interfaz:
         frame.columnconfigure(0, weight=1)
 
         entry = tk.Entry(frame, width=55, font=("Arial", 11))
-        entry.bind("<FocusIn>",  lambda e: setattr(self.config, 'en_prueba', True))
-        entry.bind("<FocusOut>", lambda e: setattr(self.config, 'en_prueba', False))
+        entry.bind("<FocusIn>",  lambda e: self.publicar("iniciar_prueba") if self.publicar else None)
+        entry.bind("<FocusOut>", lambda e: self.publicar("fin_prueba") if self.publicar else None)
         entry.bind("<KeyRelease>", lambda e: entry.delete(0, tk.END) if len(entry.get()) >= 40 else None)  # Se borra sola al llenarse
         entry.grid(row=0, column=0, padx=5, ipady=5, pady=5)
         self.entry_prueba = entry
