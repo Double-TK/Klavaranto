@@ -48,60 +48,7 @@ Klavaranto está hecho en Python, usando las siguientes librerías:
 
 ---
 
-## EN | English
-
-# Klavaranto v1.1
-
-## Features
-
-* Converts key combinations into special Esperanto characters (cx→ĉ, gx→ĝ, hx→ĥ, jx→ĵ, sx→ŝ, ux→ŭ)
-* Configurable input methods: prefix, suffix or double key
-* Undo system — by repeating the affix or with a custom key
-* Configurable activation shortcut, works even if modifier keys get "stuck"
-* Multi-language interface: Español, English, Esperanto
-* Option to start the program already enabled
-* Option to start with Windows
-* System tray icon with quick menu
-
-## Installation
-
-Download the latest version from the [Releases](https://github.com/Double-TK/Klavaranto/releases) section on GitHub. There are two options:
-
-* **Portable** (`Klavaranto_v1.1_portable.zip`) — unzip the file and run `Klavaranto.exe` directly, no installation needed.
-* **Installer** (`Klavaranto_v1.1-setup.exe`) — installs the program with shortcuts in the start menu and desktop, and includes an uninstaller.
-
-## Usage
-
-Run `Klavaranto.exe`. An icon will appear in the system tray — right-click to enable, configure or exit.
-
-Once enabled, just type normally: when a combination is completed, it's automatically replaced by the special character. For example, typing `cx` becomes `ĉ`.
-
-If you make a mistake, you can undo the last change by repeating the affix or using a custom key (configurable in Options).
-
-In the Options window you can adjust the input method (prefix, suffix or double key), the interface language, the activation shortcut, and whether the program starts with Windows.
-
-## Contributing
-
-Found a bug or have a suggestion? Open an [Issue on GitHub](https://github.com/Double-TK/Klavaranto/issues).
-
-If you want to support Klavaranto's development, you can do so via [Ko-fi](https://ko-fi.com/doubletk).
-
-## Technical information
-
-Klavaranto is made in Python, using the following libraries:
-
-* **tkinter** — graphical interface
-* **pynput** — keyboard detection
-* **pystray** — system tray icon
-* **Pillow** — icon and flag generation
-
-
-
----
-
 ## EO | Esperanto
-
-# Klavaranto v1.1
 
 ## Karakterizaĵoj
 
@@ -145,6 +92,55 @@ Klavaranto estas farita en Python, uzante la jenajn bibliotekojn:
 * **pynput** — klavardetekto
 * **pystray** — ikono en la sistema trako
 * **Pillow** — generado de ikonoj kaj flagoj
+
+
+---
+
+
+## EN | English
+
+## Features
+
+* Converts key combinations into special Esperanto characters (cx→ĉ, gx→ĝ, hx→ĥ, jx→ĵ, sx→ŝ, ux→ŭ)
+* Configurable input methods: prefix, suffix or double key
+* Undo system — by repeating the affix or with a custom key
+* Configurable activation shortcut, works even if modifier keys get "stuck"
+* Multi-language interface: Español, English, Esperanto
+* Option to start the program already enabled
+* Option to start with Windows
+* System tray icon with quick menu
+
+## Installation
+
+Download the latest version from the [Releases](https://github.com/Double-TK/Klavaranto/releases) section on GitHub. There are two options:
+
+* **Portable** (`Klavaranto_v1.1_portable.zip`) — unzip the file and run `Klavaranto.exe` directly, no installation needed.
+* **Installer** (`Klavaranto_v1.1-setup.exe`) — installs the program with shortcuts in the start menu and desktop, and includes an uninstaller.
+
+## Usage
+
+Run `Klavaranto.exe`. An icon will appear in the system tray — right-click to enable, configure or exit.
+
+Once enabled, just type normally: when a combination is completed, it's automatically replaced by the special character. For example, typing `cx` becomes `ĉ`.
+
+If you make a mistake, you can undo the last change by repeating the affix or using a custom key (configurable in Options).
+
+In the Options window you can adjust the input method (prefix, suffix or double key), the interface language, the activation shortcut, and whether the program starts with Windows.
+
+## Contributing
+
+Found a bug or have a suggestion? Open an [Issue on GitHub](https://github.com/Double-TK/Klavaranto/issues).
+
+If you want to support Klavaranto's development, you can do so via [Ko-fi](https://ko-fi.com/doubletk).
+
+## Technical information
+
+Klavaranto is made in Python, using the following libraries:
+
+* **tkinter** — graphical interface
+* **pynput** — keyboard detection
+* **pystray** — system tray icon
+* **Pillow** — icon and flag generation
 
 
 ---
