@@ -55,7 +55,7 @@ class AcercaDe:
         self.ventana.resizable(False, False)
 
         # Centrar en pantalla
-        ancho, alto = 378, 410
+        ancho, alto = 378, 412
         x = (self.ventana.winfo_screenwidth()  // 2) - (ancho // 2)
         y = (self.ventana.winfo_screenheight() // 2) - (alto  // 2)
         self.ventana.geometry(f"{ancho}x{alto}+{x}+{y}")

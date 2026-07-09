@@ -7,7 +7,7 @@
 import os
 import sys
 import threading
-from pynput import keyboard
+from pynput import keyboard, mouse
 import pystray
 import logger
 import ctypes
@@ -38,6 +38,8 @@ class App:
         self.listener_captura = None     # Listener temporal durante la captura
         self._ultimo_atajo = 0           # Tiempo de enfriamiento para el atajo activado
         self.cargar_atajo()
+
+        self.ultimo_clic = 0             # Tiempo del último clic para evitar doble clics
 
 
     ##############################################################
@@ -306,6 +308,23 @@ class App:
     ##              ACTIVAR Y DESACTIVAR                        ##
     ##############################################################
 
+    def _click_detectado(self, x, y, button, pressed):
+        logger.log_sistema.debug(f"CLIC RECIBIDO: x={x} y={y} button={button} pressed={pressed} publicar={self.publicar}")
+        if button != mouse.Button.left or not self.publicar:
+            return
+
+        if pressed:
+            self._posicion_click_inicial = (x, y)
+        else:
+            if hasattr(self, '_posicion_click_inicial'):
+                dx = abs(x - self._posicion_click_inicial[0])
+                dy = abs(y - self._posicion_click_inicial[1])
+                if max(dx, dy) > 5:
+                    self.publicar("arrastre_mouse", (x, y))
+                else:
+                    self.publicar("clic_mouse", (x, y))
+
+
     def activar(self):
         # Activa el programa y actualiza el ícono
         self.config.activado = 1
@@ -335,10 +354,35 @@ class App:
     ##              ÍCONO EN BANDEJA                            ##
     ##############################################################
 
+    def manejar_doble_clic(self):
+        tiempo_actual = time.time()
+        # Si la diferencia de tiempo es menor a 0.4 segundos (400ms)
+        if tiempo_actual - self.ultimo_clic < 0.4:
+            if self.config.activado == 1:
+                self.desactivar()
+            else:
+                self.activar()
+            
+            # Reiniciamos a 0 para evitar que un 3er clic dispare la acción de nuevo
+            self.ultimo_clic = 0 
+        else:
+            # Guardamos el tiempo de este primer clic
+            self.ultimo_clic = tiempo_actual
+    
+    
     def crear_menu_icono(self):
-        # Crea el menú del botón derecho en la bandeja del sistema
         t = self.config.textos[self.config.idioma]["sistema"]
+        
         menu = pystray.Menu(
+            # Receptor del doble clic en el icono, ahora totalmente oculto
+            pystray.MenuItem(
+                "Oculto", 
+                lambda: self.manejar_doble_clic(),
+                default=True,
+                visible=False  # <--- Esto evita que aparezca en tu menú
+            ),
+            
+            # Tu menú original intacto
             pystray.MenuItem(
                 lambda item: t["menu_desactivar"] if self.config.activado == 1 else t["menu_activar"],
                 lambda: self.desactivar() if self.config.activado == 1 else self.activar()
@@ -351,6 +395,7 @@ class App:
             pystray.Menu.SEPARATOR,
             pystray.MenuItem(lambda item: t["menu_salir"], self.cerrar)
         )
+        
         if self.icono:
             self.icono.menu = menu
             self.icono.update_menu()
@@ -424,6 +469,15 @@ X-GNOME-Autostart-enabled=true
             on_release = self.soltar_atajo
         )
         self.central.teclado.listener.start()
+
+        # Listener de mouse — solo para medir consumo por ahora, no hace nada todavía
+        self.listener_mouse = mouse.Listener(on_click=self._click_detectado)
+        self.listener_mouse.start()
+
+        # Temporal — solo para ver cuántos hilos hay activos, se puede borrar después
+        logger.log_sistema.debug(f"HILOS ACTIVOS: {threading.active_count()}")
+        for hilo in threading.enumerate():
+            logger.log_sistema.debug(f"HILO: {hilo.name}")
 
         # Crea el menú del ícono
         self.crear_menu_icono()

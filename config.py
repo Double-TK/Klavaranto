@@ -46,7 +46,8 @@ class Config:
             'log_errores':    '1',
             'log_atajo':      '0',
             'instancia_unica': '1',
-        }
+            'umbral_mouse':    '50',
+}
     }
 
     def __init__(self):
@@ -106,7 +107,7 @@ class Config:
         # Lee todos los valores del config.ini a variables propias
         self.idioma          = self.cfg['general']['idioma']
         self.margen          = int(self.cfg['general']['margen'])
-        self.activado = int(self.cfg['inicio']['iniciar_activado'])
+        self.activado        = int(self.cfg['inicio']['iniciar_activado'])
         logger.log_sistema.debug(f"leer() activado={self.activado}")
         self.iniciar_windows = int(self.cfg['inicio']['iniciar_con_windows'])
         self.afijo           = self.cfg['entrada']['afijo']
@@ -117,6 +118,7 @@ class Config:
         self.atajo_deshacer  = self.cfg['deshacer']['atajo_deshacer']
         self.atajo           = self.cfg['atajo']['atajo']
         self.instancia_unica = int(self.cfg['dev']['instancia_unica'])
+        self.umbral_mouse    = int(self.cfg['dev']['umbral_mouse'])
         self.en_prueba = False        
 
 

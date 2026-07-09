@@ -23,7 +23,7 @@ import logger
 ##############################################################
 
 NOMBRE       = "Klavaranto"
-VERSION      = "1.1.1"
+VERSION      = "1.1.2"
 AUTOR        = "Gonzalo AB, Doble TK (Kroko)"
 DESCRIPCION  = "Programa para escribir caracteres especiales del Esperanto"
 CARACTERES   = "cx→ĉ  gx→ĝ  hx→ĥ  jx→ĵ  sx→ŝ  ux→ŭ"

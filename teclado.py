@@ -5,11 +5,11 @@
 ##   No se modifica salvo cambios de lógica mayor.    ##
 ########################################################
 
-from pynput import keyboard
+from pynput import keyboard, mouse
 import ctypes
 import logger
 import os
-
+import time
 
 ##############################################################
 ##              ESTADOS DEL BUFFER_DESHACER                 ##
@@ -27,6 +27,7 @@ ESTADO_GATILLO  = 2
 ESTADO_CONTANDO = 1
 ESTADO_FIN      = 0
 
+TIEMPO_MAXIMO_BUFFER = 3   # segundos — si pasa más tiempo entre teclas, se asume cambio de ventana/contexto
 
 ##############################################################
 ##              CLASE TECLADO                               ##
@@ -40,9 +41,12 @@ class Teclado:
 
         # Controlador para simular teclas
         self.controlador = keyboard.Controller()
+        self.controlador_mouse   = mouse.Controller()
+        self.posicion_al_escribir = None
 
         # Buffer de tipeo — acumula las últimas N letras escritas por el usuario
         self.buffer_tipeo = []
+        self.ultima_tecla_tiempo = time.time()   # Marca de tiempo de la última tecla procesada
 
         # Buffer de deshacer — guarda el estado antes del reemplazo
         # Formato: [letras_originales, caracter_resultante, estado]
@@ -75,6 +79,19 @@ class Teclado:
         # Punto de entrada desde Central — decide qué hacer con cada tecla
         logger.log_sistema.debug(f"procesar tecla={tecla} buffer={self.buffer_deshacer}")
         
+
+        # Paso 0.5 — si pasó demasiado tiempo desde la última tecla, se asume cambio de
+        # ventana/contexto (el listener no detecta eso) — limpia ambos buffers.
+        # Se excluye ESTADO_CAPTURA porque ahí el usuario puede tardar a propósito.
+        ahora = time.time()
+        if ahora - self.ultima_tecla_tiempo > TIEMPO_MAXIMO_BUFFER:
+            self.buffer_tipeo.clear()
+            if self.buffer_deshacer and self.buffer_deshacer[2] not in (ESTADO_FIN, ESTADO_CAPTURA):
+                self.buffer_deshacer = []
+        self.ultima_tecla_tiempo = ahora
+
+
+
         # Paso 1 — estado 4: modo captura de tecla deshacer
         if self.buffer_deshacer and self.buffer_deshacer[2] == ESTADO_CAPTURA:
             logger.log_sistema.debug(f"CAPTURA: tecla={tecla} valida={self._es_valida_para_deshacer(tecla)}")
@@ -112,6 +129,7 @@ class Teclado:
             return
 
         # Paso 4 — la tecla es una letra o número, agregarla al buffer_tipeo
+        self.posicion_al_escribir = self.controlador_mouse.position
         self.buffer_tipeo.append(tecla)
         if len(self.buffer_tipeo) > self.config.margen:
             self.buffer_tipeo.pop(0)
@@ -230,9 +248,9 @@ class Teclado:
         logger.log_reemplazos.debug(f"REEMPLAZO: {combinacion} → {caracter}")
 
 
-    ##############################################################
-    ##              DESHACER                                    ##
-    ##############################################################
+    ####################################################################################
+    ##                                    DESHACER                                    ##
+    ####################################################################################
 
     def _verificar_deshacer(self, tecla):
         # Máquina de estados que controla el flujo del deshacer
@@ -347,9 +365,9 @@ class Teclado:
 
 
 
-    ##############################################################
-    ##              TECLA DESHACER                              ##
-    ##############################################################
+    ##############################################################################
+    ##                              TECLA DESHACER                              ##
+    ##############################################################################
 
     def cargar_tecla_deshacer(self):
         # Lee la tecla de deshacer del config.ini — ahora guarda vk
@@ -435,3 +453,21 @@ class Teclado:
         }
         logger.log_sistema.debug(f"actualizando diccionario sufijo={self.config.sufijo} prefijo={self.config.prefijo}")
         logger.log_sistema.debug(f"DICCIONARIO ACTUALIZADO: {list(self.diccionario.keys())[:3]}")
+
+    #####################################################################
+    ##              Verificacion mouse                                 ##
+    #####################################################################
+    def verificar_clic_lejano(self, x, y):
+        # Si el clic ocurrió lejos de donde se estaba escribiendo, limpia los buffers
+        # No actúa durante la captura de tecla de deshacer (ESTADO_CAPTURA)
+        logger.log_sistema.debug(f"VERIFICAR_CLIC_LEJANO llamado con x={x} y={y} posicion_al_escribir={self.posicion_al_escribir}")
+        if self.buffer_deshacer and self.buffer_deshacer[2] == ESTADO_CAPTURA:
+            return
+        if self.posicion_al_escribir is None:
+            return
+
+        distancia = max(abs(x - self.posicion_al_escribir[0]), abs(y - self.posicion_al_escribir[1]))
+        if distancia > self.config.umbral_mouse:
+            self.buffer_tipeo.clear()
+            self.buffer_deshacer = []
+            logger.log_sistema.debug(f"CLIC LEJANO — distancia={distancia} — buffers limpiados")

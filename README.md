@@ -1,6 +1,6 @@
 ## ES | Español
 
-# Klavaranto v1.1.1
+# Klavaranto v1.1.2
 
 ## Características
 

@@ -131,15 +131,16 @@ class Telefonista:
         logger.log_sistema.debug("programa ok")
 
         # -- Modo prueba --
-        self.suscribir("iniciar_prueba", lambda: setattr(self.config, 'activado', 2))
-        self.suscribir("fin_prueba",     lambda: setattr(self.config, 'activado', 0))
-        self.suscribir("fin_prueba",     lambda: setattr(self.teclado, 'buffer_deshacer', []))
-        self.suscribir("fin_prueba",     self.teclado.buffer_tipeo.clear)
+        self.suscribir("iniciar_prueba", self._iniciar_prueba)
+        self.suscribir("fin_prueba",     self._fin_prueba)
 
         # Refuerzo — pase lo que pase (X, Cancelar u OK) siempre se limpia el modo prueba
         self.suscribir("cancelar_opciones", lambda: self.publicar("fin_prueba"))
         self.suscribir("guardar_opciones",  lambda: self.publicar("fin_prueba"))
 
+        # -- Mouse --
+        self.suscribir("clic_mouse", lambda pos: (logger.log_sistema.debug(f"EVENTO clic_mouse RECIBIDO: {pos}"), self.teclado.verificar_clic_lejano(*pos)))
+        self.suscribir("arrastre_mouse", lambda pos: (setattr(self.teclado, 'buffer_tipeo', []), setattr(self.teclado, 'buffer_deshacer', [])))
 
     ##############################################################
     ##              ACCIONES COMPUESTAS                         ##
@@ -224,3 +225,13 @@ class Telefonista:
             self.interfaz.spinbox_margen.config(state="disabled")
         else:
             self.interfaz.spinbox_margen.config(state="normal")
+
+    def _iniciar_prueba(self):
+        self._activado_antes_prueba = self.config.activado
+        self.config.activado = 2
+
+    def _fin_prueba(self):
+        self.config.activado = getattr(self, '_activado_antes_prueba', 0)
+        self.teclado.buffer_deshacer = []
+        self.teclado.buffer_tipeo.clear()
+        self.app.actualizar_icono()
