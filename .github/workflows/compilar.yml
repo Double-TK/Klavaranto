@@ -24,12 +24,11 @@ jobs:
 
       - name: Generar build_info.py
         run: |
-          echo COMPILADOR = "nuitka" > build_info.py
-          echo PYTHON = "3.13" >> build_info.py
+          python -c "with open('build_info.py', 'w', encoding='utf-8') as f: f.write('COMPILADOR = \"nuitka\"\nPYTHON = \"3.13\"\n')"
 
       - name: Compilar con Nuitka
         run: |
-          python -m nuitka --onefile --windows-console-mode=disable --windows-icon-from-ico=icono.ico --enable-plugin=tk-inter --output-filename=Klavaranto.exe --include-data-files=idiomas.json=idiomas.json --include-data-files=ProtestRiot-Limpia.ttf=ProtestRiot-Limpia.ttf klavaranto.py
+          python -m nuitka --onefile --assume-yes-for-downloads --windows-console-mode=disable --windows-icon-from-ico=icono.ico --enable-plugin=tk-inter --output-filename=Klavaranto.exe --include-data-files=idiomas.json=idiomas.json --include-data-files=ProtestRiot-Limpia.ttf=ProtestRiot-Limpia.ttf klavaranto.py
 
       - name: Subir el ejecutable
         uses: actions/upload-artifact@v4
