@@ -1,0 +1,38 @@
+name: Compilar Klavaranto
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install nuitka
+          pip install -r requirements.txt
+
+      - name: Generar build_info.py
+        run: |
+          echo COMPILADOR = "nuitka" > build_info.py
+          echo PYTHON = "3.13" >> build_info.py
+
+      - name: Compilar con Nuitka
+        run: |
+          python -m nuitka --onefile --windows-console-mode=disable --windows-icon-from-ico=icono.ico --enable-plugin=tk-inter --output-filename=Klavaranto.exe --include-data-files=idiomas.json=idiomas.json --include-data-files=ProtestRiot-Limpia.ttf=ProtestRiot-Limpia.ttf klavaranto.py
+
+      - name: Subir el ejecutable
+        uses: actions/upload-artifact@v4
+        with:
+          name: Klavaranto-nuitka
+          path: Klavaranto.exe
