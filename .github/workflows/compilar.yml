@@ -24,7 +24,8 @@ jobs:
 
       - name: Generar build_info.py
         run: |
-          python -c "with open('build_info.py', 'w', encoding='utf-8') as f: f.write('COMPILADOR = \"nuitka\"\nPYTHON = \"3.13\"\n')"
+          Set-Content -Path build_info.py -Encoding utf8 -Value 'COMPILADOR = "nuitka"'
+          Add-Content -Path build_info.py -Encoding utf8 -Value 'PYTHON = "3.13"'
 
       - name: Compilar con Nuitka
         run: |
