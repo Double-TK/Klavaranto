@@ -17,8 +17,8 @@
 
 Descarga la última versión desde la sección [Releases](https://github.com/Double-TK/Klavaranto/releases) de GitHub. Hay dos opciones:
 
-* **Portable** (`Klavaranto_v1.1_portable.zip`) — descomprime el archivo y ejecuta `Klavaranto.exe` directamente, sin instalar nada.
-* **Instalador** (`Klavaranto_v1.1-setup.exe`) — instala el programa con accesos directos en el menú inicio y el escritorio, e incluye desinstalador.
+* **Portable** (`Klavaranto_v1.1.2_portable.zip`) — descomprime el archivo y ejecuta `Klavaranto.exe` directamente, sin instalar nada.
+* **Instalador** (`Klavaranto_v1.1.2-setup.exe`) — instala el programa con accesos directos en el menú inicio y el escritorio, e incluye desinstalador.
 
 ## Uso
 
@@ -45,6 +45,19 @@ Klavaranto está hecho en Python, usando las siguientes librerías:
 * **pystray** — ícono en la bandeja del sistema
 * **Pillow** — generación de íconos y banderas
 
+## Política de firma de código
+
+Este proyecto está postulando al programa de SignPath Foundation para firma de código gratuita en binarios de Windows.
+
+Estado: Pendiente de aprobación.
+
+Si es aprobado: "Firma de código gratuita proporcionada por SignPath.io, certificado de SignPath Foundation"
+
+Proceso de build: los binarios se compilan desde este repositorio usando GitHub Actions (ver `.github/workflows/compilar.yml`). Solo los artefactos compilados por este proceso automatizado serán enviados a firmar.
+
+Roles: Gonzalo AB (Doble TK) es Autor, Revisor y Aprobador — único desarrollador del proyecto.
+
+Privacidad: Este programa no recolecta ni transmite ningún dato del usuario. Toda la configuración y los registros (logs) se guardan localmente en el dispositivo del usuario.
 
 ---
 
@@ -65,8 +78,8 @@ Klavaranto está hecho en Python, usando las siguientes librerías:
 
 Elŝutu la lastan version el la sekcio [Releases](https://github.com/Double-TK/Klavaranto/releases) en GitHub. Estas du opcioj:
 
-* **Portebla** (`Klavaranto_v1.1_portable.zip`) — malzipu la dosieron kaj rulu `Klavaranto.exe` rekte, sen instalado.
-* **Instalilo** (`Klavaranto_v1.1-setup.exe`) — instalas la programon kun ŝparvojoj en la komenca menuo kaj la labortablo, kaj inkluzivas malinstalilon.
+* **Portebla** (`Klavaranto_v1.1.2_portable.zip`) — malzipu la dosieron kaj rulu `Klavaranto.exe` rekte, sen instalado.
+* **Instalilo** (`Klavaranto_v1.1.2-setup.exe`) — instalas la programon kun ŝparvojoj en la komenca menuo kaj la labortablo, kaj inkluzivas malinstalilon.
 
 ## Uzado
 
@@ -79,12 +92,6 @@ Se vi eraras, vi povas malfari la lastan ŝanĝon ripetante la afikson aŭ uzant
 En la fenestro Agordoj vi povas alĝustigi la enigan metodon (prefikso, sufikso aŭ duobla klavo), la lingvon de la interfaco, la aktivigan klavkombinon, kaj ĉu la programo startas kun Vindozo.
 
 ## Teknika informo
-## Kontribui
-
-Ĉu vi trovis eraron aŭ havas sugeston? Malfermu [Issue en GitHub](https://github.com/Double-TK/Klavaranto/issues).
-
-Se vi volas subteni la programadon de Klavaranto, vi povas fari tion per [Ko-fi](https://ko-fi.com/doubletk).
-
 
 Klavaranto estas farita en Python, uzante la jenajn bibliotekojn:
 
@@ -93,9 +100,27 @@ Klavaranto estas farita en Python, uzante la jenajn bibliotekojn:
 * **pystray** — ikono en la sistema trako
 * **Pillow** — generado de ikonoj kaj flagoj
 
+## Kontribui
+
+Ĉu vi trovis eraron aŭ havas sugeston? Malfermu [Issue en GitHub](https://github.com/Double-TK/Klavaranto/issues).
+
+Se vi volas subteni la programadon de Klavaranto, vi povas fari tion per [Ko-fi](https://ko-fi.com/doubletk).
+
+## Politiko pri kodsignado
+
+Ĉi tiu projekto kandidatiĝas al la programo de SignPath Foundation por senpaga kodsignado de Vindozaj binaroj.
+
+Stato: Atendante aprobon.
+
+Se aprobita: "Senpaga kodsignado provizita de SignPath.io, atestilo de SignPath Foundation"
+
+Konstruprocezo: la binaroj estas kompilitaj el ĉi tiu deponejo per GitHub Actions (vidu `.github/workflows/compilar.yml`). Nur artefaktoj konstruitaj per ĉi tiu aŭtomatigita procezo estos senditaj por subskribo.
+
+Roloj: Gonzalo AB (Doble TK) estas Aŭtoro, Reviziisto kaj Aprobanto — sola programisto de la projekto.
+
+Privateco: Ĉi tiu programo ne kolektas nek transdonas iujn ajn datumojn de la uzanto. Ĉiuj agordoj kaj protokoloj estas konservitaj loke sur la aparato de la uzanto.
 
 ---
-
 
 ## EN | English
 
@@ -114,8 +139,8 @@ Klavaranto estas farita en Python, uzante la jenajn bibliotekojn:
 
 Download the latest version from the [Releases](https://github.com/Double-TK/Klavaranto/releases) section on GitHub. There are two options:
 
-* **Portable** (`Klavaranto_v1.1_portable.zip`) — unzip the file and run `Klavaranto.exe` directly, no installation needed.
-* **Installer** (`Klavaranto_v1.1-setup.exe`) — installs the program with shortcuts in the start menu and desktop, and includes an uninstaller.
+* **Portable** (`Klavaranto_v1.1.2_portable.zip`) — unzip the file and run `Klavaranto.exe` directly, no installation needed.
+* **Installer** (`Klavaranto_v1.1.2-setup.exe`) — installs the program with shortcuts in the start menu and desktop, and includes an uninstaller.
 
 ## Usage
 
@@ -142,6 +167,19 @@ Klavaranto is made in Python, using the following libraries:
 * **pystray** — system tray icon
 * **Pillow** — icon and flag generation
 
+## Code signing policy
+
+This project is applying to the SignPath Foundation program for free code signing of Windows binaries.
+
+Status: Pending approval.
+
+If approved: "Free code signing provided by SignPath.io, certificate by SignPath Foundation"
+
+Build process: binaries are built from this repository using GitHub Actions (see `.github/workflows/compilar.yml`). Only CI-built artifacts will be submitted to SignPath for signing.
+
+Roles: Gonzalo AB (Doble TK) is Author, Reviewer, and Approver — the project's sole developer.
+
+Privacy: This program does not collect or transmit any user data. All configuration and logs are stored locally on the user's device.
 
 ---
 
